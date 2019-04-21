@@ -24,10 +24,6 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get("/", (req, res) => {
-  res.send(req.user);
-});
-
 require("./routes/authRoutes")(app);
 require("./routes/billingRoutes")(app);
 
