@@ -14,5 +14,6 @@ const surveySchema = new Schema({
   dateSent: Date,
   lastResponded: Date
 });
+// _user = author of the survey
 
 mongoose.model("surveys", surveySchema);
