@@ -4,8 +4,8 @@ import React from "react";
 const Landing = () => {
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>Emaily!</h1>
-      fjmdkosafjdksalfjsakf
+      <h1>Hi</h1>
+      1a2a3a4a5a
     </div>
   );
 };
