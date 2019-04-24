@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SurveyList from "./surveys/SurveyList";
+
 const Dashboard = () => {
   return (
     <div>
-      Dash
+      <SurveyList />
       <div className="fixed-action-btn">
         <Link
           style={{ position: "absolute", bottom: "50px", right: "50px" }}
